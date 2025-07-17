@@ -3,6 +3,8 @@
 [![Understanding the Psychological Black Box Effect](https://img.youtube.com/vi/NfeSoCLtxxc/0.jpg)](https://youtu.be/NfeSoCLtxxc?si=RAeFPg7AsWDPH7fB)  
 *(Click the image to watch video explanation)*
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NfeSoCLtxxc?si=_B-a_JFxmee55fkm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 <div align="center">
 <iframe width="560" height="315" src="https://youtu.be/NfeSoCLtxxc?si=RAeFPg7AsWDPH7fB"></iframe>
 </div>
