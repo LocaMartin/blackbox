@@ -443,38 +443,29 @@ export default function BlackBoxPersonalDev() {
       </div>
 
       <div className="relative z-10 container mx-auto p-6 space-y-8">
-        {/* Header with Glowing Black Box Logo */}
-        <div className="text-center space-y-4">
+        {/* Header with Pure Cube Logo */}
+        <div className="text-center space-y-2">
           <div className="relative inline-block">
-            <div className="w-24 h-24 mx-auto relative">
-              {/* Glowing effect */}
-              <div className="absolute inset-0 bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 rounded-lg blur-lg opacity-75 animate-pulse"></div>
-              {/* Black box container */}
-              <div className="relative w-full h-full bg-black/80 backdrop-blur-sm border border-white/20 rounded-lg shadow-2xl">
-                {/* Opened box effect */}
-                <div className="absolute inset-2 border-2 border-dashed border-cyan-400/50 rounded animate-pulse"></div>
-                {/* Inner glow */}
-                <div className="absolute inset-4 bg-gradient-to-br from-cyan-400/20 to-purple-500/20 rounded blur-sm"></div>
-                {/* Center symbol */}
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <svg width="32" height="32" viewBox="0 0 200 200" className="animate-pulse">
-                    <polygon points="100,30 160,60 100,90 40,60" fill="currentColor" className="text-cyan-400" />
-                    <polygon
-                      points="100,90 160,60 160,140 100,170"
-                      fill="currentColor"
-                      className="text-cyan-400 opacity-80"
-                    />
-                    <polygon
-                      points="40,60 100,90 100,170 40,140"
-                      fill="currentColor"
-                      className="text-cyan-400 opacity-60"
-                    />
-                  </svg>
-                </div>
+            <div className="w-32 h-32 mx-auto relative flex items-center justify-center">
+              {/* Pure cube SVG without any glow effects */}
+              <div className="relative z-10">
+                <svg width="64" height="64" viewBox="0 0 200 200" className="animate-pulse">
+                  <polygon points="100,30 160,60 100,90 40,60" fill="currentColor" className="text-cyan-400" />
+                  <polygon
+                    points="100,90 160,60 160,140 100,170"
+                    fill="currentColor"
+                    className="text-cyan-400 opacity-80"
+                  />
+                  <polygon
+                    points="40,60 100,90 100,170 40,140"
+                    fill="currentColor"
+                    className="text-cyan-400 opacity-60"
+                  />
+                </svg>
               </div>
             </div>
           </div>
-          <h1 className="text-4xl font-bold bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 bg-clip-text text-transparent">
+          <h1 className="text-4xl font-bold bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 bg-clip-text text-transparent -mt-2">
             Black Box
           </h1>
           <p className="text-gray-300 max-w-2xl mx-auto">
