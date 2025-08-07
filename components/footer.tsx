@@ -49,7 +49,7 @@ export default function Footer({ settings, onSettingsChange, onLogout }: FooterP
             </p>
             {/* Replace this href with your actual GitHub username */}
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/LocaMartin"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white transition-colors"
