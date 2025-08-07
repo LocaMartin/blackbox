@@ -113,8 +113,8 @@ A sophisticated personal development tracking application built with Next.js, fe
      images: {
        unoptimized: true
      },
-     basePath: process.env.NODE_ENV === 'production' ? '/your-repo-name' : '',
-     assetPrefix: process.env.NODE_ENV === 'production' ? '/your-repo-name/' : '',
+     basePath: process.env.NODE_ENV === 'production' ? '/your-repo' : '',
+     assetPrefix: process.env.NODE_ENV === 'production' ? '/your-repo/' : '',
    }
 
    module.exports = nextConfig
@@ -157,7 +157,7 @@ A sophisticated personal development tracking application built with Next.js, fe
    npx gh-pages -d out
    ```
 
-## 🔧 Configuration
+## Configuration
 
 ### Environment Variables
 
@@ -214,11 +214,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 If you encounter any issues:
 
-1. Check the [Issues](https://github.com/yourusername/black-box-app/issues) page
+1. Check the [Issues](https://github.com/yourusername/blackbox/issues) page
 2. Create a new issue with detailed information
 3. Include browser version and error messages
 
-## 🎯 Roadmap
+## Roadmap
 
 - [ ] Data export/import functionality
 - [ ] Mobile app version
