@@ -7,8 +7,8 @@ const nextConfig = {
   },
   // Only add basePath and assetPrefix if your repo name is NOT your-username.github.io
   // Replace 'your-repo-name' with your actual repository name
-  basePath: process.env.NODE_ENV === 'production' ? '/black-box-app' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/black-box-app/' : '',
+  basePath: process.env.NODE_ENV === 'production' ? '/blackbox' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/blackbox/' : '',
 }
 
 module.exports = nextConfig
