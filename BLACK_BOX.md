@@ -3,12 +3,6 @@
 [![Understanding the Psychological Black Box Effect](https://img.youtube.com/vi/NfeSoCLtxxc/0.jpg)](https://youtu.be/NfeSoCLtxxc?si=RAeFPg7AsWDPH7fB)  
 *(Click the image to watch video explanation)*
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/NfeSoCLtxxc?si=_B-a_JFxmee55fkm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-<div align="center">
-<iframe width="560" height="315" src="https://youtu.be/NfeSoCLtxxc?si=RAeFPg7AsWDPH7fB"></iframe>
-</div>
-
 Imagine your mind is like an airplane's "black box" (which records everything happening inside the plane). But here, the **"black box" represents your internal world** of thoughts, feelings, interpretations, and beliefs that happen *between* an event (like making a mistake) and your reaction/result.
 
 ---
@@ -20,17 +14,17 @@ Imagine your mind is like an airplane's "black box" (which records everything ha
 
 2. **The Black Box (Your Hidden Internal Processing)**  
    *This happens instantly and unconsciously:*  
-   - 🧠 You **interpret** what happened (*"This means I’m stupid," "They hate me," "I always fail"*)  
-   - 😔 You **feel** strong emotions (shame, anger, fear, embarrassment)  
-   - ⚠️ You **make assumptions** (*"It was their fault," "The test was unfair," "I can’t do this"*)  
-   - 🛡️ You **react defensively** (blame others, make excuses, avoid thinking about it)
+   - You **interpret** what happened (*"This means I’m stupid," "They hate me," "I always fail"*)  
+   - You **feel** strong emotions (shame, anger, fear, embarrassment)  
+   - You **make assumptions** (*"It was their fault," "The test was unfair," "I can’t do this"*)  
+   - You **react defensively** (blame others, make excuses, avoid thinking about it)
 
-3. **Outcome/Behavior**  
+1. **Outcome/Behavior**  
    Based on your "black box" reactions, you:  
-   - ❌ Give up trying  
-   - 🏃 Avoid similar situations  
-   - 🔄 Repeat the same mistake  
-   - 😞 Feel worse about yourself  
+   - Give up trying  
+   - Avoid similar situations  
+   - Repeat the same mistake  
+   - Feel worse about yourself  
    - *(Real learning? **Not if the box stays closed!*)*
 
 ---
@@ -45,7 +39,7 @@ Imagine your mind is like an airplane's "black box" (which records everything ha
 
 ### How to "Open the Black Box" and Grow
 
-🔑 **Make the invisible visible!** After a setback:
+**Make the invisible visible!** After a setback:
 
 #### Step 1: Pause & Notice  
    - Stop your automatic reaction. Breathe. Create mental space.
@@ -79,4 +73,4 @@ Imagine your mind is like an airplane's "black box" (which records everything ha
 ---
 
 ### In a Nutshell  
-The "black box effect" traps you when hidden thoughts/feelings control your reactions to mistakes. **Open the box!** Pause, examine your inner world, find the *specific lesson*, and turn setbacks into growth fuel. 🚀  
+The "black box effect" traps you when hidden thoughts/feelings control your reactions to mistakes. **Open the box!** Pause, examine your inner world, find the *specific lesson*, and turn setbacks into growth fuel.
