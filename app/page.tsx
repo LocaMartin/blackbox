@@ -444,7 +444,7 @@ export default function BlackBoxPersonalDev() {
 
       <div className="relative z-10 container mx-auto p-6 space-y-8">
         {/* Header with Pure Cube Logo */}
-        <div className="text-center space-y-2">
+        <div className="text-center space-y-1">
           <div className="relative inline-block">
             <div className="w-32 h-32 mx-auto relative flex items-center justify-center">
               {/* Pure cube SVG without any glow effects */}
@@ -465,7 +465,7 @@ export default function BlackBoxPersonalDev() {
               </div>
             </div>
           </div>
-          <h1 className="text-4xl font-bold bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 bg-clip-text text-transparent -mt-2">
+          <h1 className="text-4xl font-bold bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 bg-clip-text text-transparent -mt-1">
             Black Box
           </h1>
           <p className="text-gray-300 max-w-2xl mx-auto">

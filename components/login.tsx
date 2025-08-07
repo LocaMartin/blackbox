@@ -7,7 +7,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
-import { Lock, Eye, EyeOff } from "lucide-react"
+import { Lock, Eye, EyeOff } from 'lucide-react'
 
 interface LoginProps {
   onLogin: () => void
@@ -60,31 +60,22 @@ export default function Login({ onLogin }: LoginProps) {
       <div className="relative z-10 w-full max-w-md p-6">
         <div className="text-center space-y-4 mb-8">
           <div className="relative inline-block">
-            <div className="w-20 h-20 mx-auto relative">
-              {/* Glowing effect */}
-              <div className="absolute inset-0 bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 rounded-lg blur-lg opacity-75 animate-pulse"></div>
-              {/* Black box container */}
-              <div className="relative w-full h-full bg-black/80 backdrop-blur-sm border border-white/20 rounded-lg shadow-2xl">
-                {/* Opened box effect */}
-                <div className="absolute inset-2 border-2 border-dashed border-cyan-400/50 rounded animate-pulse"></div>
-                {/* Inner glow */}
-                <div className="absolute inset-4 bg-gradient-to-br from-cyan-400/20 to-purple-500/20 rounded blur-sm"></div>
-                {/* Center symbol */}
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <svg width="24" height="24" viewBox="0 0 200 200" className="animate-pulse">
-                    <polygon points="100,30 160,60 100,90 40,60" fill="currentColor" className="text-cyan-400" />
-                    <polygon
-                      points="100,90 160,60 160,140 100,170"
-                      fill="currentColor"
-                      className="text-cyan-400 opacity-80"
-                    />
-                    <polygon
-                      points="40,60 100,90 100,170 40,140"
-                      fill="currentColor"
-                      className="text-cyan-400 opacity-60"
-                    />
-                  </svg>
-                </div>
+            <div className="w-32 h-32 mx-auto relative flex items-center justify-center">
+              {/* Pure cube SVG without any glow effects */}
+              <div className="relative z-10">
+                <svg width="64" height="64" viewBox="0 0 200 200" className="animate-pulse">
+                  <polygon points="100,30 160,60 100,90 40,60" fill="currentColor" className="text-cyan-400" />
+                  <polygon
+                    points="100,90 160,60 160,140 100,170"
+                    fill="currentColor"
+                    className="text-cyan-400 opacity-80"
+                  />
+                  <polygon
+                    points="40,60 100,90 100,170 40,140"
+                    fill="currentColor"
+                    className="text-cyan-400 opacity-60"
+                  />
+                </svg>
               </div>
             </div>
           </div>
