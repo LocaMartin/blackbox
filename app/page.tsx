@@ -10,26 +10,7 @@ import { Badge } from "@/components/ui/badge"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Checkbox } from "@/components/ui/checkbox"
 import { Label } from "@/components/ui/label"
-import {
-  Plus,
-  Target,
-  TrendingUp,
-  Calendar,
-  CheckCircle,
-  AlertTriangle,
-  Brain,
-  Lightbulb,
-  BookOpen,
-  Zap,
-  Clock,
-  Play,
-  Pause,
-  Square,
-  CheckSquare,
-  ListTodo,
-  Save,
-  Download,
-} from "lucide-react"
+import { Plus, Target, TrendingUp, Calendar, CheckCircle, AlertTriangle, Brain, Lightbulb, BookOpen, Zap, Clock, Play, Pause, Square, CheckSquare, ListTodo, Save, Download } from 'lucide-react'
 
 import Login from "@/components/login"
 import Footer from "@/components/footer"
@@ -147,11 +128,11 @@ export default function BlackBoxPersonalDev() {
   const [longTermPlan, setLongTermPlan] = useState("")
   const [dailyHabits, setDailyHabits] = useState("")
 
-  const getDaysInMonth = (year, month) => {
+  const getDaysInMonth = (year: number, month: number): number => {
     return new Date(year, month + 1, 0).getDate()
   }
 
-  const toggleDateCompletion = (dateKey) => {
+  const toggleDateCompletion = (dateKey: string) => {
     setCompletedDates((prev) => {
       const newSet = new Set(prev)
       if (newSet.has(dateKey)) {
@@ -163,7 +144,7 @@ export default function BlackBoxPersonalDev() {
     })
   }
 
-  const formatDate = (dateString) => {
+  const formatDate = (dateString: string): string => {
     return new Date(dateString).toLocaleDateString("en-US", {
       month: "short",
       day: "numeric",
@@ -171,10 +152,10 @@ export default function BlackBoxPersonalDev() {
     })
   }
 
-  const getDaysUntilTarget = (targetDate) => {
+  const getDaysUntilTarget = (targetDate: string): number => {
     const today = new Date()
     const target = new Date(targetDate)
-    const diffTime = target - today
+    const diffTime = target.getTime() - today.getTime()
     const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24))
     return diffDays
   }
@@ -412,14 +393,14 @@ export default function BlackBoxPersonalDev() {
     setIsStopwatchRunning(false)
   }
 
-  const formatStopwatchTime = (time) => {
+  const formatStopwatchTime = (time: number): string => {
     const minutes = Math.floor(time / 6000)
     const seconds = Math.floor((time % 6000) / 100)
     const centiseconds = time % 100
     return `${minutes.toString().padStart(2, "0")}:${seconds.toString().padStart(2, "0")}.${centiseconds.toString().padStart(2, "0")}`
   }
 
-  const toggleTask = (taskId, subtaskId = null) => {
+  const toggleTask = (taskId: number, subtaskId: number | null = null) => {
     setTasks((prev) =>
       prev.map((task) => {
         if (task.id === taskId) {
