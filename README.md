@@ -9,8 +9,11 @@
 A sophisticated personal development tracking application comprehensive self-improvement tools.
 
 > [!NOTE]What is blackbox effect ?
-> The Black Box Effect refers to the unconscious mental processing that happens between an event and your reaction where hidden thoughts, emotions, and beliefs shape your response without you realizing it.
-Opening this “black box” helps you learn and grow from mistakes instead of repeating them.
+> The Black Box Effect refers to the unconscious mental processing that happens
+> between an event and your reaction where hidden thoughts, emotions, and
+> beliefs shape your response without you realizing it.
+> Opening this “black box” helps you learn and grow from mistakes instead of
+> repeating them.
 
 > [!important]
 > - Click on the icon/logo to use it
@@ -67,14 +70,9 @@ If you encounter any issues:
 ---
 
 <h4 align="center">
-  Built with 
-  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="red" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle;" xmlns="http://www.w3.org/2000/svg">
-    <path d="M20.8 4.6c-1.6-1.5-4.1-1.5-5.7 0L12 7.7 8.9 4.6c-1.6-1.5-4.1-1.5-5.7 0-1.6 1.6-1.6 4.2 0 5.8L12 21l8.8-10.6c1.6-1.6 1.6-4.2 0-5.8z"/>
-
-  </svg>
-
-  for personal growth and self-improvement
-
+Built with
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Heart_icon_red_hollow.svg/497px-Heart_icon_red_hollow.svg.png" width="16" style="vertical-align: middle;" />
+for personal growth and self-improvement
 </h4>
 
 ---
