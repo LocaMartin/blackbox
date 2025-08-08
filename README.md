@@ -72,9 +72,7 @@ If you encounter any issues:
 ---
 
 <h4 align="center">
-Built with
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Heart_icon_red_hollow.svg/497px-Heart_icon_red_hollow.svg.png" width="16" style="vertical-align: middle;" />
- for personal growth and self-improvement
+Built with <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Heart_icon_red_hollow.svg/497px-Heart_icon_red_hollow.svg.png" width="16" style="vertical-align: middle;" /> for personal growth and self-improvement
 </h4>
 
 ---
