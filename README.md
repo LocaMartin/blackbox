@@ -10,6 +10,7 @@ A sophisticated personal development tracking application comprehensive self-imp
 
 > [!NOTE]
 > **What is blackbox effect ?**
+> 
 > The Black Box Effect refers to the unconscious mental processing that happens
 > between an event and your reaction where hidden thoughts, emotions, and
 > beliefs shape your response without you realizing it.
